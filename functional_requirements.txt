@@ -1,0 +1,56 @@
+features-
+    greeting features:
+        
+        startup greeting:
+             x-able to greet at the start of the day (once only) 
+             x-speak weather
+             x-speak about items on todo list
+             x-speak items of google calendar
+             -add a text file full of greetings and choose randomly from it, this way each time new.
+        todo:
+            -make a shell script
+            x-it take the "text" and put it into the file
+            -text > todo.txt
+
+        calendar:
+            x-read events from calendar
+        
+        gmail:
+            -read emails specifics from primary
+            x-if new mails come it notifies
+
+        youtube:
+            -search youtube for specific item and play it
+
+
+        gcp voice recognition setup:
+            -gTTS is kindoff slow
+
+        wake and sleep:
+            -also measure the performance impact
+        
+        browsing and opening apps:
+            X-make specialized functions which are generalized to launch certain apps using subprocess and browser
+
+        x-add a sound to confirm assitant is listening
+
+        -provide good afternoon good evening functionality
+
+        
+        twitter:
+            -add twitter controls , maybe using some twitter API?
+            -read most trending
+            -inform about tweets from favourties
+            -give notifications
+
+        dnd:
+            -during this time period no notifications at all
+        
+        stats :
+            -keystrokes tracker, how many keys pressed
+            -track CPU usage RAM usage , peek of them
+        
+        -improve hearing
+
+        bluetooth connectiviy to device:
+            -perform certain actions on bluetooth connectivity
